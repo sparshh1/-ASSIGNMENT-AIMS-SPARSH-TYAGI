@@ -49,12 +49,11 @@
 
 ## IMPUTATION  
 
-|   | branch     | marks | marks_mean_imputed | branch_imputed |
-|---|------------|-------|--------------------|----------------|
-| 0 | mechanical | 80.0  | 80.0               | mechanical     |
-| 1 | NaN        | 85.0  | 85.0               | notknown       |
-| 2 | cse        | NaN   | NaN                | cse            |
-| 3 | ece        | 90.0  | 90.0               | ece            |
-| 4 | NaN        | 75.0  | 75.0               | notknown       |
-| 5 | cse        | NaN   | NaN                | cse            |
-
+| branch     | marks | marks_mean_imputed | branch_imputed |
+|------------|-------|--------------------|---------------|
+| mechanical | 80.0  | 80.0               | mechanical    |
+| NaN        | 85.0  | 85.0               | notknown      |
+| cse        | NaN   | 82.5               | cse           |
+| ece        | 90.0  | 90.0               | ece           |
+| NaN        | 75.0  | 75.0               | notknown      |
+| cse        | NaN   | 82.5               | cse           |
